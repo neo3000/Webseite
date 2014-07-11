@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="App_Themes/Design1/Stylesheet.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="wrapper">
+            <div id="header_top">
+                
+            </div>
+            <div id="header">
+                <div id="header_text">
+                    <a class="header_logo_text" href="Default.aspx">Koch-Systems.at</a>
+                    <a class="header_logo_text_baseline" href="Default.aspx">#ssafdf #safda #dasda</a>
+                </div>
+                <input id="searchbox_top" runat="server"  placeholder="Suche..." />
+            </div>
+            <div id="menu_top">
+                
+            </div>
+            <div id="content"> 
+                <div id="content_left">
+
+                </div>
+                <div id="content_right">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>            
+            <div id="footer">
+
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
